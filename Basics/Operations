@@ -1,0 +1,12 @@
+public class Problem1 {
+    public static void main(String[] args) {
+        int a=10;
+        int b=25;
+        int sum=a+b;
+        System.out.println(sum);
+        int difference=b-a;
+        System.out.println(difference);
+        int multi=a*b;
+        System.out.println(multi);
+    }
+}
