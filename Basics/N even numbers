@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+//even numbers till n
+public class loop3 {
+    public static void main(String[] args) {
+        Scanner scr = new Scanner(System.in);
+        int n = scr.nextInt();
+        for (int i = 1; i <= n; i++) {
+            System.out.print(2 * i+" ");
+        }
+    }
+}
