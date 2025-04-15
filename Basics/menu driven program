@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Lecture4_1 {
+    public static void main(String[] args) {
+        Scanner scr=new Scanner(System.in);
+        int n;
+        do{
+            System.out.println("enter the marks");
+                    int marks = scr.nextInt();
+                    if (marks >= 90 && marks<=100) {
+                        System.out.println("This is Good");
+                    } else if (marks <= 89 && marks >= 60) {
+                        System.out.println("This is also Good");
+                    } else if (marks <= 59 && marks >= 0) {
+                        System.out.println("This is Good as well");
+                    } else {
+                        System.out.println("invalid");
+                    }
+            System.out.println("want to continue?:yes(1) or no(0)");
+                    n=scr.nextInt();
+        }while (n==1);
+    }
+}
