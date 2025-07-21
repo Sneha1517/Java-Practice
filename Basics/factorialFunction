@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class function3 {
+        public static void factorial(int num1){
+            int fact=1;
+            if(num1<1){
+                System.out.println("invalid");
+                return;
+            }
+            for(int i=num1;i>=1;i--){
+                fact=fact*i;}
+            System.out.println(fact);
+
+
+        }
+        public static void main(String[] args){
+            Scanner scr =new Scanner(System.in);
+            int num1=scr.nextInt();
+            factorial(num1);
+        }
+    }
