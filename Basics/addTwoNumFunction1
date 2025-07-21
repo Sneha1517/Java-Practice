@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class function2 {
+        public static int addTwoNum(int num1,int num2){
+            int sum=num1+num2;
+            return sum;
+
+        }
+        public static void main(String[] args){
+            Scanner scr =new Scanner(System.in);
+            int num1=scr.nextInt() , num2=scr.nextInt();
+            System.out.println(addTwoNum(num1,num2));
+        }
+    }
